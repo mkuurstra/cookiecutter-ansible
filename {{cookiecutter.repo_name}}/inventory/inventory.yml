@@ -1,0 +1,9 @@
+---
+all:
+  children:
+    {{cookiecutter.repo_name}}:
+      hosts:
+        localhost:
+
+  vars:
+    ansible_user: marvink
